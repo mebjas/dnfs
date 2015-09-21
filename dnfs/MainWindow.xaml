@@ -1,0 +1,13 @@
+﻿<Window x:Class="dnfs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="61.76" AllowsTransparency="True" Width="641" ResizeMode="NoResize" WindowStyle="None" Uid="binGo-bingSearch" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" MouseDown="Window_MouseDown" KeyUp="Window_KeyUp">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.5" Color="Black"/>
+    </Window.Background>
+    <Grid x:Name="workspace" Background="Transparent" Height="62" VerticalAlignment="Top">
+        <TextBox x:Name="key" HorizontalAlignment="Left" Height="29" Margin="10,25,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="621" FontSize="20" FontFamily="Calibri"/>
+        <TextBlock x:Name="mailLabel" HorizontalAlignment="Left" Margin="12,5,0,0" TextWrapping="Wrap" Text="DNFS" VerticalAlignment="Top" Foreground="White"/>
+        <TextBlock x:Name="closeButton" HorizontalAlignment="Center" Margin="627,0,0,0" TextWrapping="Wrap" Text=" X" VerticalAlignment="Top" Width="14" Background="#FFD65757" Foreground="White" Opacity="0.6" Cursor="Arrow" FontWeight="Bold" FontFamily="Segoe WP" MouseEnter="closeButton_MouseEnter" MouseLeave="closeButton_MouseLeave" MouseLeftButtonDown="closeButton_MouseLeftButtonDown"/>
+    </Grid>
+</Window>
