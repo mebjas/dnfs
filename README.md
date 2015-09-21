@@ -1,5 +1,5 @@
 # dnfs - distributed network file search
-LAN Search softwares available today scans files on machines on network in real time, thus taking a huge time to show results. This tool is an attempt to make this process fast by maintaining local database of files available on network.
+LAN Search softwares available today scans files on network in real time, thus taking a huge time to show results. This tool is a POC on distributed search, where the different nodes on a network shall store certain information about files available on network and serve the information on request. So while searching for a file, a node will broadcast the search key and wait for response, resulting in way faster search.
 
 
 #### How its supposed to work?
