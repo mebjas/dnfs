@@ -67,5 +67,10 @@ namespace dnfs
         {
             this.Close();
         }
+
+        private void minButton_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            WindowState = WindowState.Minimized;
+        }
     }
 }

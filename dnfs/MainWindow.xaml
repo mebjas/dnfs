@@ -9,5 +9,6 @@
         <TextBox x:Name="key" HorizontalAlignment="Left" Height="29" Margin="10,25,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="621" FontSize="20" FontFamily="Calibri"/>
         <TextBlock x:Name="mailLabel" HorizontalAlignment="Left" Margin="12,5,0,0" TextWrapping="Wrap" Text="DNFS" VerticalAlignment="Top" Foreground="White"/>
         <TextBlock x:Name="closeButton" HorizontalAlignment="Center" Margin="627,0,0,0" TextWrapping="Wrap" Text=" X" VerticalAlignment="Top" Width="14" Background="#FFD65757" Foreground="White" Opacity="0.6" Cursor="Arrow" FontWeight="Bold" FontFamily="Segoe WP" MouseEnter="closeButton_MouseEnter" MouseLeave="closeButton_MouseLeave" MouseLeftButtonDown="closeButton_MouseLeftButtonDown"/>
+        <TextBlock x:Name="minButton" HorizontalAlignment="Center" Margin="615,0,14,0" TextWrapping="Wrap" Text=" -" VerticalAlignment="Top" Width="12" Background="Black" Foreground="White" Opacity="0.6" Cursor="Arrow" FontWeight="Bold" FontFamily="Segoe WP" MouseLeftButtonDown="minButton_MouseLeftButtonDown"/>
     </Grid>
 </Window>
